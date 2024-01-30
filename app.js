@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     search.addEventListener('click', () => {
 
-        const APIKey = 'bc56cb8133acb19b9e3b8673a37f4557';
+        const APIKey = 'Your API KEY ';
         const city = document.querySelector('.search-box input').value;
 
         if (city === '')
